@@ -9,11 +9,11 @@ scenarios:
   sample:
     headers:
         Connection: close
-    script: clima_cpt.jmx
+    script: Oranfe_cpt.jmx
 
 reporting:
 - module: final-stats
-  dump-xml: clima_cpt.xml
+  dump-xml: orange_cpt.xml
 
 modules:
   jmeter:
